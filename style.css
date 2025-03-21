@@ -1,6 +1,5 @@
 * {
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
 
 body {
@@ -61,7 +60,7 @@ ul {
     font-weight: 900;
 }
 
-.sub{
+.sub {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -76,7 +75,7 @@ ul {
 
 }
 
-.signup{
+.signup {
     font-size: 15px;
     background-color: #3882F6;
     color: white;
@@ -86,3 +85,39 @@ ul {
     padding: 7px 20px;
     border: none;
 }
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info {
+    padding-top: 60px;
+    padding-bottom: 110px;
+}
+
+.container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.jewl {
+    text-align: center;
+    width: 200px;
+}
+
+.info img {
+    border-radius: 10px; 
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+

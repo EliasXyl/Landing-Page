@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box; 
-}
+} 
 
 body {
     display: flex;
@@ -26,11 +26,11 @@ ul {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    gap: 16px;
-    padding: 10px 200px;
+    padding: 10px  13vw;    /* 200px; */ 
 }
 
 .logo {
+    font-weight: 900;
     font-size: 24px;
     color: #F9FaF8;
 }
@@ -44,7 +44,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 200px;
+    padding: 100px 13vw;
     background-color: #1F2937;
     color: white;
     gap: 100px;
@@ -97,6 +97,8 @@ ul {
 .info {
     padding-top: 60px;
     padding-bottom: 110px;
+    padding-left: 13vw;
+    padding-right: 13vw;
 }
 
 .container {
@@ -121,3 +123,24 @@ ul {
     margin-bottom: 10px;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 13vw;
+    background-color: #E5E7EB;
+}
+
+.quotext {
+    font-size: 36px;
+    font-style: italic;
+    width: 830px;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 560px;
+    white-space: nowrap;
+}

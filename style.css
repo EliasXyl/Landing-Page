@@ -26,7 +26,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 10px  13vw;    /* 200px; */ 
+    padding: 10px  12vw;    
 }
 
 .logo {
@@ -44,7 +44,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 13vw;
+    padding: 100px 12vw;
     background-color: #1F2937;
     color: white;
     gap: 100px;
@@ -97,8 +97,8 @@ ul {
 .info {
     padding-top: 60px;
     padding-bottom: 110px;
-    padding-left: 13vw;
-    padding-right: 13vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
 }
 
 .container {
@@ -128,7 +128,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 150px 13vw;
+    padding: 150px 12vw;
     background-color: #E5E7EB;
 }
 
@@ -144,3 +144,33 @@ ul {
     margin-left: 560px;
     white-space: nowrap;
 }
+
+.cta-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%; 
+}
+
+.cta {
+    color: #E5E7EB;
+    border-radius: 10px;
+    height: 150px;
+    width: 70%;
+    background-color: #3882F6;
+    
+}
+
+.cta-signup { 
+    font-weight: 900;
+    font-size: 15px;
+    padding: 6px 30px;
+    border-radius: 5px;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    background-color: #3882F6;
+}
+
+

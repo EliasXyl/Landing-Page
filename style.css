@@ -8,7 +8,6 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-
 }
 
 a {
@@ -154,23 +153,53 @@ ul {
     width: 100%; 
 }
 
+.bold-text {
+    margin-bottom: 0px;
+}
+
+.normal-text {
+    margin-top: 5px;
+}
+
+
 .cta {
     color: #E5E7EB;
     border-radius: 10px;
-    height: 150px;
     width: 70%;
     background-color: #3882F6;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 130px;
+    gap: 100px;
+    min-width: 900px;
+
 }
 
-.cta-signup { 
+.cta-text {
+    flex-shrink: 0;
+    margin-bottom: 10px;
+}
+
+.cta-signup {
+    margin-top: 22px;
+}
+
+.signup-button { 
+    border: solid 2px;
     font-weight: 900;
     font-size: 15px;
-    padding: 6px 30px;
-    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    border-radius: 7px;
     color: #E5E7EB;
     border-color: #E5E7EB;
     background-color: #3882F6;
+    flex-shrink: 0;
 }
+
+
+
+
 
 
